@@ -1,0 +1,38 @@
+{
+  "spriteId": null,
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "grpBtn",
+    "path": "objects/grpBtn/grpBtn.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"grpBtnWithImg","path":"objects/grpBtnWithImg/grpBtnWithImg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [
+    {"varType":4,"value":"instance_create_depth(x, y, depth - 1, BtnImg)","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"BtnPart","tags":[],"resourceType":"GMObjectProperty",},
+  ],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Groups",
+    "path": "folders/Objects/Groups.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "grpBtnWithImg",
+  "tags": [],
+  "resourceType": "GMObject",
+}
